@@ -1,11 +1,21 @@
 {
-  "name": "client",
+  "name": "lmsportal",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
+    "start": "parcel public/index.html",
+    "build": "parcel build public/index.html",
     "test": "jest"
   },
+  "dependencies": {
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "description": ""
 }
