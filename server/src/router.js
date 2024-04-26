@@ -3,7 +3,7 @@ require("./db/dbconnect");
 const controller = require("./controllers/login-signup-contorller");
 const {
   verifyToken,
-} = require("./auth_validation/jwt_validation");
+} = require("./utils/jwt_validation");
 
 const router = express.Router();
 

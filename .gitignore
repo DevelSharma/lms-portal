@@ -2,3 +2,6 @@
 /server/.env
 /server/rough.md
 /server/rt
+/client/node_modules
+/client/.parcel-cache
+/client/dist

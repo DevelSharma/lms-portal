@@ -1,7 +1,7 @@
 const express = require("express");
 const User = require("../models/user");
 const bcrypt = require("bcryptjs");
-const {generateToken} = require("../auth_validation/jwt_validation");
+const {generateToken} = require("../utils/jwt_validation");
 const { TokenExpiredError } = require("jsonwebtoken");
 
 // Signup controller
